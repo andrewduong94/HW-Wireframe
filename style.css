@@ -32,29 +32,59 @@ header, nav, section, aside, footer {
     background: #ebebeb ;
  }
 
+
+
 section {
     float: left;
     width: 495px;
-    height: 425px;
+    height: 300px;
+    margin-bottom: 10px;
 }
 
 aside {
     float: right ;
     width: 450px;
-    height: 425px;
+    height: 300px;
 }
 
 article {
     color: #ebebeb ;
-    background: #777;
-    padding: 20px ;
-    margin-top:10px ;
+    background-color: #777;
+    padding: 10px ;
+    width:90%;
+    margin: auto;
+    overflow: auto
    }
 
 
+h2 {
+    float: left;
+    overflow: auto;
+    margin-top: 30px;
+    width: 33.33%;
+    
+}
 
 
-h1, p {
+
+
+
+p{
+    margin-top:30px;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+h4, h2, h3, p {
     color: #777 ;
     background: #ebebeb;
     
@@ -63,6 +93,9 @@ h1, p {
 footer {
     display: block ;
     clear: both;
+    padding: 20px;
+    margin-top: 30px;
+ 
 }
 
 
